@@ -1,6 +1,8 @@
-# *modified* feathers-logger
+# feathers-logger
 
 Modified to support namespaced debug to bunyan.
+
+![Example usage](./example/screenshot.jpg?raw=true)
 
 ## Getting Started
 
