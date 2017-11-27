@@ -2,7 +2,7 @@
   "name": "feathers-logger",
   "description": "Simple logging for feathers",
   "version": "0.2.3",
-  "homepage": "https://github.com/feathersjs/feathers-logger",
+  "homepage": "https://github.com/HackCapital/feathers-logger",
   "main": "lib/",
   "keywords": [
     "feathers-plugin",
