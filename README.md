@@ -2,7 +2,7 @@
 
 Modified to support namespaced debug to bunyan.
 
-![Example usage](./example/screenshot.jpg?raw=true)
+<img width="647" src="./example/screenshot.jpg?raw=true">
 
 ## Getting Started
 
