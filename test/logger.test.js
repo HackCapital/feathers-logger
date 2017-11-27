@@ -30,4 +30,13 @@ describe('Feathers logger', function () {
   it('initializes .debug', function () {
     expect(typeof app.debug).to.equal('function');
   });
+
+  it('initializes .createDebug', function () {
+    expect(typeof app.createDebug).to.equal('function');
+  });
+
+  it('.createDebug creates a debug', function () {
+    var debug = app.createDebug('mynamespace');
+    expect(typeof debug).to.equal('function');
+  });
 });
