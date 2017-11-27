@@ -52,7 +52,7 @@ namespacedDebug('Some debug happened');
 Start the app with a debug level. Ie. `DEBUG=*`, `DEBUG=cto-ai*`, `DEBUG=cto-ai:my-namespace*`
 to filter the debug messages that appear.
 
-More info: (Node Debug)[https://github.com/visionmedia/debug]
+More info: [Node Debug](https://github.com/visionmedia/debug)
 
 ## Examples
 See [example directory](https://github.com/feathersjs/feathers-logger/tree/master/example).
