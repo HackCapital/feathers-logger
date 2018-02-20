@@ -6,8 +6,6 @@ app.configure(logger({
   name: 'my-app'
 }));
 
-
-
 app.listen(3030);
 app.info('App listening on 127.0.0.1:3030');
 app.log('log');
@@ -17,4 +15,3 @@ app.debug('debug');
 
 const namespaceDebug = app.createDebug('namespace');
 namespaceDebug('Hello namespace');
-

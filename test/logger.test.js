@@ -27,6 +27,10 @@ describe('Feathers logger', function () {
     expect(typeof app.error).to.equal('function');
   });
 
+  it('initializes .fatal', function () {
+    expect(typeof app.fatal).to.equal('function');
+  });
+
   it('initializes .debug', function () {
     expect(typeof app.debug).to.equal('function');
   });

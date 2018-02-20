@@ -24,6 +24,7 @@ var app = feathers()
 * `app.info()`
 * `app.warn()`
 * `app.error()`
+* `app.fatal()`
 * `app.debug()`
 * `app.createDebug()`
 
@@ -40,6 +41,7 @@ app.log('Some log happened');
 app.info('Some info happened');
 app.warn('Some warn happened');
 app.error('Some error happened');
+app.fatal('Something terrible happened');
 
 // The following debug will only appear if app is started with: DEBUG=cto-ai
 app.debug('Some debug happened');
